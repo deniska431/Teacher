@@ -1,0 +1,313 @@
+html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+padding:0;
+overflow-x: hidden;
+
+}
+
+.container {
+    padding: 10px;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+
+/* ШАПКА */
+a {
+    text-decoration: none;
+    color: #898f91;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: #324474;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #dde9ec;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+ul {
+    display: block;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+.social i {
+    margin-left: 10px;
+}
+
+
+
+
+/* Информация */
+.info {
+    background-color: #dde9ec;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.text-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+
+
+}
+
+.text-content {
+    display: block;
+    justify-content: space-around;
+    text-align: justify;
+    margin-right: 20px;
+
+}
+
+.img-h img {
+    max-width: 500px;
+    max-height: 400px;
+    display: flex;
+    position: relative;
+    top: 90px;
+    
+}
+
+
+
+.btn-call {
+    color: #324474;
+    border: 2px solid #324474;
+    padding: 10px;
+    background-color: #dde9ec;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.btn-call:hover {
+    color: #ffffff;
+    border: 2px solid #324474;
+    padding: 10px;
+    background-color: #324474;
+    margin-top: 30px;
+}
+
+
+
+/* ОБО МНЕ */
+.about {
+    text-align: center;
+    margin-top: 55px;
+
+}
+
+.about h1 {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.about-card {
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    justify-content: space-around;
+
+    width: 70%;
+}
+
+.about-card div {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    max-width: 150px;
+
+}
+
+p {
+    color: #464646;
+
+}
+
+/* Курсы */
+.kyrs {
+    text-align: center;
+    justify-content: center;
+    background-color: #dde9ec;
+}
+
+.about-card-kyrs {
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.about-card-kyrs div {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    max-width: 150px;
+    color: #464646;
+
+}
+
+
+/* ФОРМА  */
+.form-back-color {
+    background-color: #dde9ec;
+
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+.form-in {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.form-control:focus {
+    border-color: #324474;
+    outline: none;
+}
+
+textarea.form-control {
+    height: 100px;
+    resize: none;
+}
+
+.form-check {
+    display: block;
+    justify-content: start;
+    text-align: start;
+}
+
+.btn-form {
+    display: flex;
+    color: #ffffff;
+    border: 2px solid #324474;
+    padding: 10px;
+    background-color: #324474;
+    margin-top: 30px;
+    border-radius: 5px;
+
+
+}
+
+.form-text-blue {
+    color: #1c41a5;
+}
+
+
+
+
+
+/* Подвал */
+
+
+.footer {
+    margin-top: 70px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content h1 {
+    margin: 0;
+
+}
+
+.news-blocks {
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    width: 49%;
+
+}
+
+.news-item {
+
+    text-align: left;
+    flex: 1;
+    min-width: 100px;
+    max-width: 400px;
+}
+
+.news-item p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.footer-text {
+    display: flex;
+
+}
+
+
+.footer-black-line {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: #898f91;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+}
